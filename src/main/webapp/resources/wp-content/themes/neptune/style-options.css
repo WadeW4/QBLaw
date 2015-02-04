@@ -1,0 +1,74 @@
+
+/*
+Theme Name: neptune
+*/
+
+/************************************************************************
+#  BANNER
+*************************************************************************/
+#banner-shadow{
+	background: url(images/shadow.png) bottom center no-repeat;
+	height:402px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	width:979px;
+}
+#banner-container1{
+	box-shadow: 0px 0px 6px #666;
+	-webkit-box-shadow:  0px 0px 6px #666;
+	-moz-box-shadow: 0px 0px 6px #666;
+}
+/************************************************************************
+#  END BANNER
+*************************************************************************/
+
+/************************************************************************
+#  BACKGROUNDS
+*************************************************************************/
+body{
+	background: url('images/bluegreen/bg.png');
+}
+
+body{
+	background: #15317E}
+
+#container #wrapper-container #wrapper-top{
+	background: url('images/bluegreen/bg_top.png');
+}
+
+#navigation{
+	background: url('images/bluegreen/nav.png') bottom center no-repeat;
+}
+
+#navigation #nav-left{
+	background: url('images/bluegreen/nav_left.png') bottom no-repeat;
+}
+#navigation #nav-right{
+	background: url('images/bluegreen/nav_right.png') bottom no-repeat;
+}
+#navigation #nav-middle{
+	background: url('images/bluegreen/nav_middle.png') bottom repeat-x;
+}
+#navigation ul li ul {
+	background: url(images/nav_dropdown.png) #1D3741; border:none; border-top:none;}
+
+#copyright{
+		
+}
+	#copyright #top-link{
+			}
+/************************************************************************
+#  END BACKGROUNDS
+*************************************************************************/
+
+
+/************************************************************************
+#  MATH
+*************************************************************************/
+.nivo-controlNav{
+left: 405px;
+}
+/************************************************************************
+#  WHITE THEME END
+*************************************************************************/
