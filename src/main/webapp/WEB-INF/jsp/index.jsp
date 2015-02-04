@@ -51,9 +51,9 @@
         <!--<link rel="publisher" href="https://plus.google.com/109146895645452798878"/>-->
         <!-- Top Up -->
         <script type="text/javascript">
-        TopUp.host = "${pageContext.request.contextPath}/resources/wp-content/themes/neptune/index.jsp";
-        TopUp.images_path = "topup/images/top_up/index.jsp";
-        TopUp.players_path = "topup/players/index.jsp";
+            TopUp.host = "${pageContext.request.contextPath}/resources/wp-content/themes/neptune/index.jsp";
+            TopUp.images_path = "topup/images/top_up/index.jsp";
+            TopUp.players_path = "topup/players/index.jsp";
         </script>
         <script type="text/javascript">
             $(function () {
@@ -355,8 +355,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="page_item page-item-87"><a href="events-resources/index.html">Events/Resources</a>
-                                </li>
+                                <li class="page_item page-item-87"><a href="events-resources/index.html">Events</a></li>
+                                <li class="page_item page-item-87"><a href="/home">Client</a></li>
                                 <li class="page_item page-item-6"><a href="blog/index.html">Blog</a></li>
                                 <li class="page_item page-item-269"><a href="legal-disclaimer-privacy-policy/index.html">Legal
                                         Disclaimer and Privacy Policy</a></li>
