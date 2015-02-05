@@ -284,7 +284,7 @@
                         <div class="menu">
                             <ul>
                                 <li class="page_item page-item-4 current_page_item"><a href="index.jsp">Home</a></li>
-                                <li class="page_item page-item-10"><a href="about-us/index.html">About Us</a></li>
+                                <li class="page_item page-item-10"><a href="${pageContext.request.contextPath}/base/about-us">About Us</a></li>
                                 <li class="page_item page-item-13 page_item_has_children"><a
                                         href="areas-of-practice/index.html">Practice Areas</a>
                                     <ul class='children'>

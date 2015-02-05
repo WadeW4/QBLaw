@@ -1,17 +1,14 @@
 package com.wade.qblaw.user.validation;
 
-import javax.validation.ConstraintValidatorContext;
 import java.lang.reflect.Field;
 
-/**
- * @author Petri Kainulainen
- */
+import javax.validation.ConstraintValidatorContext;
+
+@SuppressWarnings("deprecation")
 public class ValidatorUtil {
 
     public static void addValidationError(String field, ConstraintValidatorContext context) {
-        context.buildConstraintViolationWithTemplate(context.getDefaultConstraintMessageTemplate())
-                .addNode(field)
-                .addConstraintViolation();
+        context.buildConstraintViolationWithTemplate(context.getDefaultConstraintMessageTemplate()).addNode(field).addConstraintViolation();
     }
 
     public static Object getFieldValue(Object object, String fieldName) throws NoSuchFieldException, IllegalAccessException {

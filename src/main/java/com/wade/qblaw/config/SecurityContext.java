@@ -1,8 +1,5 @@
 package com.wade.qblaw.config;
 
-import com.wade.qblaw.security.service.SimpleSocialUserDetailsService;
-import com.wade.qblaw.user.repository.UserRepository;
-import com.wade.qblaw.security.service.RepositoryUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +13,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.social.security.SocialUserDetailsService;
 import org.springframework.social.security.SpringSocialConfigurer;
+
+import com.wade.qblaw.security.service.RepositoryUserDetailsService;
+import com.wade.qblaw.security.service.SimpleSocialUserDetailsService;
+import com.wade.qblaw.user.repository.UserRepository;
 
 /**
  * @author Petri Kainulainen
@@ -35,33 +36,19 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                //Configures form login
-                .formLogin()
-                    .loginPage("/login")
-                    .loginProcessingUrl("/login/authenticate")
-                    .failureUrl("/login?error=bad_credentials")
-                //Configures the logout function
-                .and()
-                    .logout()
-                        .deleteCookies("JSESSIONID")
-                        .logoutUrl("/logout")
-                        .logoutSuccessUrl("/login")
-                //Configures url based authorization
-                .and()
-                    .authorizeRequests()
-                        //Anyone can access the urls
-                        .antMatchers(
-                                "/",
-                                "/auth/**",
-                                "/login",
-                                "/signup/**",
-                                "/user/register/**"
-                        ).permitAll()
-                        //The rest of the our application is protected.
-                        .antMatchers("/**").hasRole("USER")
-                //Adds the SocialAuthenticationFilter to Spring Security's filter chain.
-                .and()
-                    .apply(new SpringSocialConfigurer());
+        // Configures form login
+        .formLogin().loginPage("/login").loginProcessingUrl("/login/authenticate").failureUrl("/login?error=bad_credentials")
+        // Configures the logout function
+                .and().logout().deleteCookies("JSESSIONID").logoutUrl("/logout").logoutSuccessUrl("/login")
+                // Configures url based authorization
+                .and().authorizeRequests()
+        // Anyone can access the urls
+        .antMatchers("/", "/auth/**", "/base/**", "/login", "/signup/**", "/user/register/**").permitAll()
+        // The rest of the our application is protected.
+        .antMatchers("/**").hasRole("USER")
+        // Adds the SocialAuthenticationFilter to Spring Security's
+        // filter chain.
+        .and().apply(new SpringSocialConfigurer());
     }
 
     /**
@@ -70,9 +57,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth
-                .userDetailsService(userDetailsService())
-                .passwordEncoder(passwordEncoder());
+        auth.userDetailsService(userDetailsService()).passwordEncoder(passwordEncoder());
     }
 
     /**
@@ -84,8 +69,8 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
     }
 
     /**
-     * This bean is used to load the user specific data when social sign in
-     * is used.
+     * This bean is used to load the user specific data when social sign in is
+     * used.
      */
     @Bean
     public SocialUserDetailsService socialUserDetailsService() {
@@ -95,6 +80,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
     /**
      * This bean is load the user specific data when form login is used.
      */
+    @Override
     @Bean
     public UserDetailsService userDetailsService() {
         return new RepositoryUserDetailsService(userRepository);
