@@ -289,12 +289,12 @@
                                         href="areas-of-practice/index.html">Practice Areas</a>
                                     <ul class='children'>
                                         <li class="page_item page-item-250"><a
-                                                href="areas-of-practice/asset-protection-planning/index.jsp">Asset Protection
+                                                href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/index.jsp">Asset Protection
                                                 Planning</a></li>
                                         <li class="page_item page-item-257"><a
-                                                href="areas-of-practice/business-succession-planning/index.jsp">Business
+                                                href="${pageContext.request.contextPath}/base/areas-of-practice/business-succession-planning/index.jsp">Business
                                                 Succession Planning</a></li>
-                                        <li class="page_item page-item-246"><a href="areas-of-practice/elder-law/index.jsp">Elder
+                                        <li class="page_item page-item-246"><a href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/index.jsp">Elder
                                                 Law</a></li>
                                         <li class="page_item page-item-248"><a
                                                 href="areas-of-practice/long-term-care-planning/index.jsp">Long Term Care
