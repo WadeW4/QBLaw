@@ -2,16 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-
-
-
-
-        <!-- Change Theme -->
-
-
-        <!-- Change Banner -->
-
-        <!-- CSS -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-jquery-ui-1.8.6.custom.css" type="text/css" />
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-prettyPhotoCSS.css" type="text/css" />
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style.css" type="text/css" media="all" />
@@ -22,16 +12,9 @@
         <!--[if IE 7]>
         <link rel="stylesheet" href="http://qb-lawfirm.com/wp-content/themes/neptune/style-ie7.css" type="text/css" media="all" />
         <![endif]-->
-
-
-        <!-- Javascript Files & Wordpress Stuff -->
         <link rel="pingback" href="../xmlrpc.php" />
-
-        <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
         <title>Practice Areas - Quinn &amp; Banton</title>
         <link rel="canonical" href="index.html" />
-        <!-- / Yoast WordPress SEO plugin. -->
-
         <link rel="alternate" type="application/rss+xml" title="Quinn &amp; Banton &raquo; Practice Areas Comments Feed" href="feed/index.jsp" />
         <link rel='stylesheet' id='authorsure-css'  href='../wp-content/plugins/authorsure/styles/publica361.css?ver=2.3' type='text/css' media='all' />
         <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery-1.4.2.min2f54.js?ver=4.1'></script>
@@ -52,17 +35,11 @@
         <meta name="generator" content="WordPress 4.1" />
         <link rel='shortlink' href='../index2dc4.html?p=13' />
         <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-
-
-        <!-- Top Up -->
         <script type="text/javascript">
             TopUp.host = "../wp-content/themes/neptune/index.html";
             TopUp.images_path = "../topup/images/top_up/index.html";
             TopUp.players_path = "../topup/players/index.html";
         </script> 
-
-
-        <!-- Accordion -->
         <script type="text/javascript">
             $(function () {
                 // Accordion
@@ -72,25 +49,17 @@
                 });
             });
         </script>
-
         <!-- Tabs -->
         <script>
             $(function () {
                 $(".tabs").tabs();
             });
         </script>
-
-        <!-- Dialog Box -->
         <script>
             $(function () {
                 $(".dialog").dialog();
             });
         </script>
-
-
-
-
-        <!-- QS Javascript -->
         <script type="text/javascript">
             (function ($) {
                 $.fn.sorted = function (customOptions) {

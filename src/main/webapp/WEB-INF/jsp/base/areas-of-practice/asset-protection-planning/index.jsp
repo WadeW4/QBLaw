@@ -2,51 +2,35 @@
 <html>
     <head>
         <meta charset="utf-8">
-
-
-
-
-        <!-- Change Theme -->
-
-
-        <!-- Change Banner -->
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="../../wp-content/themes/neptune/style-jquery-ui-1.8.6.custom.css" type="text/css" />
-        <link rel="stylesheet" href="../../wp-content/themes/neptune/style-prettyPhotoCSS.css" type="text/css" />
-        <link rel="stylesheet" href="../../wp-content/themes/neptune/style.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="../../wp-content/themes/neptune/style-options.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-jquery-ui-1.8.6.custom.css" type="text/css" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-prettyPhotoCSS.css" type="text/css" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-options.css" type="text/css" media="all" />
         <!--[if IE]>
         <link rel="stylesheet" href="http://qb-lawfirm.com/wp-content/themes/neptune/style-ie.css" type="text/css" media="all" />
         <![endif]-->
         <!--[if IE 7]>
         <link rel="stylesheet" href="http://qb-lawfirm.com/wp-content/themes/neptune/style-ie7.css" type="text/css" media="all" />
         <![endif]-->
-
-
-        <!-- Javascript Files & Wordpress Stuff -->
         <link rel="pingback" href="../../xmlrpc.php" />
-
         <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
         <title>Asset Protection Planning - Quinn &amp; Banton</title>
         <link rel="canonical" href="index.jsp" />
-        <!-- / Yoast WordPress SEO plugin. -->
-
         <link rel="alternate" type="application/rss+xml" title="Quinn &amp; Banton &raquo; Asset Protection Planning Comments Feed" href="feed/index.jsp" />
         <link rel='stylesheet' id='authorsure-css'  href='../../wp-content/plugins/authorsure/styles/publica361.css?ver=2.3' type='text/css' media='all' />
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery-1.4.2.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery.coda-slider-2.02f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery.easing.1.32f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery.qs.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery.tools.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery-ui-1.8.6.accordion.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/jquery.nivo.slider.pack2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/menu2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/js/cufon2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/fonts/Bebas_400.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/fonts/Cicle_Semi_400.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/fonts/Cicle_300.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='../../wp-content/themes/neptune/topup/javascripts/top_up2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery-1.4.2.min2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.coda-slider-2.02f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.easing.1.32f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.qs.min2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.tools.min2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery-ui-1.8.6.accordion.min2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.nivo.slider.pack2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/menu2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/cufon2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Bebas_400.font2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Cicle_Semi_400.font2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Cicle_300.font2f54.js?ver=4.1'></script>
+        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/topup/javascripts/top_up2f54.js?ver=4.1'></script>
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
         <meta name="generator" content="WordPress 4.1" />
