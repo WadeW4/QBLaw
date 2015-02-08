@@ -1,232 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<head>
+        <title>Modern Business - Start Bootstrap Template</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/modern-business.css" rel="stylesheet">
+        <link href="css/qblaw.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
 
-    <title>Modern Business - Start Bootstrap Template</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+    <body id="header-wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" ><img src="images/skyline1.jpg" title="" /></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png"></a>
+            </div>        
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-            </div>
-            <div class="item">
-                <div class="fill"><img src="images/qb_elderly.jpg" title="" /></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class='dropdown'>
+                            <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Practice Areas<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="areas-of-practice/asset-protection-planning/index.html">Asset Protection Planning</a></li>
+                                <li><a href="areas-of-practice/business-succession-planning/index.html">Business Succession Planning</a></li>
+                                <li><a href="areas-of-practice/elder-law/index.html">Elder Law</a></li>
+                                <li><a href="areas-of-practice/long-term-care-planning/index.html">Long Term Care Planning</a></li>
+                                <li><a href="areas-of-practice/special-needs-planning/index.html">Special Needs Planning</a></li>
+                                <li><a href="areas-of-practice/trust-administration/index.html">Trust Administration</a></li>
+                                <li><a href="areas-of-practice/corporate-business-law/index.html">Corporate &#038; Business Law</a></li>
+                                <li><a href="areas-of-practice/personal-injury/index.html">Personal Injury</a></li>
+                                <li><a href="areas-of-practice/medicaid-planning/index.html">Medicaid Planning</a></li>
+                                <li><a href="areas-of-practice/va-benefits/index.html">Veterans Benefits</a></li>
+                                <li><a href="areas-of-practice/civil-litigation/index.html">Civil Litigation</a></li>
+                                <li><a href="areas-of-practice/probate/index.html">Probate</a></li>
+                                <li><a href="areas-of-practice/guardianships/index.html">Guardianships &#038; Conservatorships</a></li>
+                                <li><a href="areas-of-practice/real-estate-law/index.html">Real Estate Law</a></li>
+                                <li><a href="areas-of-practice/social-security-and-disability-appeals/index.html">Social Security and Disability Appeals</a></li>
+                                <li><a href="areas-of-practice/traffic-drivers-license-violations/index.html">Traffic and Drivers License Violations</a></li>
+                                <li><a href="areas-of-practice/wills-trusts-estate-planning/index.html">Wills, Trusts and Estate Planning</a></li>
+                                <li><a href="areas-of-practice/workers-compensation/index.html">Worker&#8217;s Compensation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Attorneys</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events/Resources <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="full-width.html">Full Width Page</a></li>
+                                <li><a href="sidebar.html">Sidebar Page</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="pricing.html">Pricing Table</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <div class="item">
-                <div class="fill"><img src="images/veterans1.jpg" title="" /></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
+            <!-- /.container -->
+        </nav>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
+        <!-- Header Carousel -->
+        <header id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Solid planning ALWAYS leads to better future.....
-                </h1>
-                 <p>Personalized attention and customized strategies get results. Since 1975 we’ve been proud to help families and businesses achieve their objectives.  We listen to our clients’ needs and goals. Then we use cutting edge tools and strategies to provide customized solutions that get results. The options can involve life care planning, Medicaid planning, veterans benefits, asset protection and more.</p>            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Estate Planning & Probate</h4>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="fill text-center" ><img src="images/skyline1.jpg" title="" /></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 1</h2>
                     </div>
-                    <div class="panel-body">
-                        <p><b>Give the gift of peace of mind to your family</b> by ensuring that your estate plan provides for who you want, when you want, and how you want, in the most tax efficient manner possible. Avoid unnecessary costs and delays while wrapping up your family’s final affairs during the probate and estate distribution process. Avoid unnecessary costs and delays while wrapping up your family’s final affairs during the probate and estate distribution process.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                </div>
+                <div class="item">
+                    <div class="fill text-center"><img src="images/qb_elderly.jpg" title="" /></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 2</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill text-center"><img src="images/veterans1.jpg" title="" /></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 3</h2>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Elder Law & Disability</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p><b>Avoid the devastating costs of a nursing home</b> or other long term care crisis by pre-planning for Medicaid and veterans benefits. Provide for yourself and members of your family who have special needs through special needs trust planning and social security benefits. Get help when you are injured on the job or through someone else’s negligence.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Business & Real Estate</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p><b>Protect your business and family from attacks</b> by creditors, predators and bankruptcy through planning with limited liability entities, properly drafted contracts, and asset protection trust strategies. Ensure your legal interests are protected when buying, selling, or managing residential and commercial real estate.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Footer -->
-        <footer>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </header>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <!-- Marketing Icons Section -->
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <h1 class="page-header">
+                        Solid planning ALWAYS leads to better future.....
+                    </h1>
+                    <p>Personalized attention and customized strategies get results. Since 1975 we’ve been proud to help families and businesses achieve their objectives.  We listen to our clients’ needs and goals. Then we use cutting edge tools and strategies to provide customized solutions that get results. The options can involve life care planning, Medicaid planning, veterans benefits, asset protection and more.</p>            </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-fw fa-check"></i> Estate Planning & Probate</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>Give the gift of peace of mind to your family</b> by ensuring that your estate plan provides for who you want, when you want, and how you want, in the most tax efficient manner possible. Avoid unnecessary costs and delays while wrapping up your family’s final affairs during the probate and estate distribution process. Avoid unnecessary costs and delays while wrapping up your family’s final affairs during the probate and estate distribution process.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-fw fa-check"></i>Elder Law & Disability</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>Avoid the devastating costs of a nursing home</b> or other long term care crisis by pre-planning for Medicaid and veterans benefits. Provide for yourself and members of your family who have special needs through special needs trust planning and social security benefits. Get help when you are injured on the job or through someone else’s negligence.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-fw fa-check"></i>Business & Real Estate</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>Protect your business and family from attacks</b> by creditors, predators and bankruptcy through planning with limited liability entities, properly drafted contracts, and asset protection trust strategies. Ensure your legal interests are protected when buying, selling, or managing residential and commercial real estate.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
 
-    </div>
-    <!-- /.container -->
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        </div>
+        <!-- /.container -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-</body>
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
+
+    </body>
 
 </html>
