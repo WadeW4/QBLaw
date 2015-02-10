@@ -4,341 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
         <meta name="generator" content="WordPress 4.1"/>
-
         <title>Quinn &amp; Banton - St. Louis Estate Planning, Elder Law and Business Law</title>
-
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-jquery-ui-1.8.6.custom.css" type="text/css"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-prettyPhotoCSS.css" type="text/css"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style.css" type="text/css" media="all"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/style-options.css" type="text/css" media="all"/>
-        <!--[if IE]>
-        <link rel="stylesheet" href="http://qb-lawfirm.com/wp-content/themes/neptune/style-ie.css" type="text/css"
-              media="all"/>
-        <![endif]-->
-        <!--[if IE 7]>
-        <link rel="stylesheet" href="http://qb-lawfirm.com/wp-content/themes/neptune/style-ie7.css" type="text/css"
-              media="all"/>
-        <![endif]-->
-        <link rel="pingback" href="xmlrpc.php"/>
-        <link rel="canonical" href="index.jsp"/>
-        <link rel="alternate" type="application/rss+xml" title="Quinn &amp; Banton &raquo; Home Comments Feed" href="home/feed/index.jsp"/>
-        <link rel='stylesheet' id='authorsure-css' href='${pageContext.request.contextPath}/wp-content/plugins/authorsure/styles/publica361.css?ver=2.3' type='text/css' media='all'/>
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd"/>
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/>
-        <link rel='shortlink' href='index.jsp'/>
-        <style type="text/css">.recentcomments a {
-                display: inline !important;
-                padding: 0 !important;
-                margin: 0 !important;
-            }</style>
-
-        <script type="application/ld+json">
-            { "@context": "http://schema.org", "@type": "WebSite", "url": "http://qb-lawfirm.com/", "potentialAction": { "@type": "SearchAction", "target": "http://qb-lawfirm.com/?s={search_term}", "query-input": "required name=search_term" } }
-        </script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery-1.4.2.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.coda-slider-2.02f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.easing.1.32f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.qs.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.tools.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery-ui-1.8.6.accordion.min2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/jquery.nivo.slider.pack2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/menu2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/js/cufon2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Bebas_400.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Cicle_Semi_400.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/fonts/Cicle_300.font2f54.js?ver=4.1'></script>
-        <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/topup/javascripts/top_up2f54.js?ver=4.1'></script>
-        <!--<link rel="publisher" href="https://plus.google.com/109146895645452798878"/>-->
-        <!-- Top Up -->
-        <script type="text/javascript">
-            TopUp.host = "${pageContext.request.contextPath}/resources/wp-content/themes/neptune/index.jsp";
-            TopUp.images_path = "topup/images/top_up/index.jsp";
-            TopUp.players_path = "topup/players/index.jsp";
-        </script>
-        <script type="text/javascript">
-            $(function () {
-                $(".accordion").accordion({
-                    header: ".AccordionHeader",
-                    autoHeight: false
-                });
-            });
-        </script>
-        <script>
-            $(function () {
-                $(".tabs").tabs();
-            });
-        </script>
-        <script>
-            $(function () {
-                $(".dialog").dialog();
-            });
-        </script>
-        <script type="text/javascript">
-            (function ($) {
-                $.fn.sorted = function (customOptions) {
-                    var options = {
-                        reversed: false,
-                        by: function (a) {
-                            return a.text();
-                        }
-                    };
-                    $.extend(options, customOptions);
-
-                    $data = $(this);
-                    arr = $data.get();
-                    arr.sort(function (a, b) {
-
-                        var valA = options.by($(a));
-                        var valB = options.by($(b));
-                        if (options.reversed) {
-                            return (valA < valB) ? 1 : (valA > valB) ? -1 : 0;
-                        } else {
-                            return (valA < valB) ? -1 : (valA > valB) ? 1 : 0;
-                        }
-                    });
-                    return $(arr);
-                };
-
-            })(jQuery);
-
-            $(function () {
-
-                var read_button = function (class_names) {
-                    var r = {
-                        selected: false,
-                        type: 0
-                    };
-                    for (var i = 0; i < class_names.length; i++) {
-                        if (class_names[i].indexOf('selected-') == 0) {
-                            r.selected = true;
-                        }
-                        if (class_names[i].indexOf('segment-') == 0) {
-                            r.segment = class_names[i].split('-')[1];
-                        }
-                    }
-                    ;
-                    return r;
-                };
-
-                var determine_sort = function ($buttons) {
-                    var $selected = $buttons.parent().filter('[class*="selected-"]');
-                    return $selected.find('a').attr('data-value');
-                };
-
-                var determine_kind = function ($buttons) {
-                    var $selected = $buttons.parent().filter('[class*="selected-"]');
-                    return $selected.find('a').attr('data-value');
-                };
-
-                var $preferences = {
-                    duration: 800,
-                    easing: 'easeInOutQuad',
-                    adjustHeight: false
-                };
-
-                var $list = $('#list');
-                var $data = $list.clone();
-
-                var $controls = $('.splitter ul');
-
-                $controls.each(function (i) {
-
-                    var $control = $(this);
-                    var $buttons = $control.find('a');
-
-                    $buttons.bind('click', function (e) {
-
-                        var $button = $(this);
-                        var $button_container = $button.parent();
-                        var button_properties = read_button($button_container.attr('class').split(' '));
-                        var selected = button_properties.selected;
-                        var button_segment = button_properties.segment;
-
-                        if (!selected) {
-                            $buttons.parent().removeClass('selected-0');
-                            $button_container.addClass('selected-' + button_segment);
-
-                            var sorting_type = determine_sort($controls.eq(1).find('a'));
-                            var sorting_kind = determine_kind($controls.eq(0).find('a'));
-
-                            if (sorting_kind == 'all') {
-                                var $filtered_data = $data.find('li');
-                            } else {
-                                var $filtered_data = $data.find('li.' + sorting_kind);
-                            }
-
-                            if (sorting_type == 'size') {
-                                var $sorted_data = $filtered_data.sorted({
-                                    by: function (v) {
-                                        return parseFloat($(v).find('span').text());
-                                    }
-                                });
-                            } else {
-                                var $sorted_data = $filtered_data.sorted({
-                                    by: function (v) {
-                                        return $(v).find('strong').text().toLowerCase();
-                                    }
-                                });
-                            }
-
-                            $list.quicksand($sorted_data, $preferences);
-
-                        }
-
-                        e.preventDefault();
-                    });
-
-                });
-
-                var high_performance = true;
-                var $performance_container = $('#performance-toggle');
-                var $original_html = $performance_container.html();
-
-                $performance_container.find('a').live('click', function (e) {
-                    if (high_performance) {
-                        $preferences.useScaling = false;
-                        $performance_container.html('CSS3 scaling turned off. Try the demo again. <a href="#toggle">Reverse</a>.');
-                        high_performance = false;
-                    } else {
-                        $preferences.useScaling = true;
-                        $performance_container.html($original_html);
-                        high_performance = true;
-                    }
-                    e.preventDefault();
-                });
-            });
-        </script>
-
-
-        <!-- Cufon -->
-        <script type="text/javascript">
-            Cufon.replace('.header-title', {});
-            Cufon.replace('#intro-column-container h2', {
-                fontFamily: 'Cicle Semi'
-            });
-            Cufon.replace('#welcome-message-left', {});
-            Cufon.replace('#welcome-message-right-content', {
-                fontFamily: 'Cicle Semi'
-            });
-            Cufon.replace('a .read-more-text', {
-                hover: true
-            });
-            Cufon.replace('.bottom-item-title', {});
-            Cufon.replace('.PageTitle h1', {});
-            Cufon.replace('.SubTitle h2', {});
-            Cufon.replace('#sidebar h2', {});
-            Cufon.replace('.blogtitle h1 a', {});
-            Cufon.replace('h2.archives-title', {});
-            Cufon.replace('H3#leave-reply', {});
-            Cufon.replace('.entry-navigation a', {
-                fontFamily: 'Cicle Semi'
-            });
-            Cufon.replace('h3#comments', {});
-            Cufon.replace('.entry h1', {});
-            Cufon.replace('.entry h2', {});
-            Cufon.replace('.entry h3', {});
-            Cufon.replace('.entry h4', {});
-            Cufon.replace('.entry h5', {});
-            Cufon.replace('.entry h6', {});
-            Cufon.replace('.phone-number', {
-                fontFamily: 'Bebas'
-            });
-            Cufon.replace('.FooterColumn h2', {
-                fontFamily: 'Cicle Semi'
-            });
-
-        </script>
-
-
-        <!-- Nivo Slider -->
-        <script type="text/javascript">
-            $(window).load(function () {
-                $('#slider').nivoSlider({
-                    effect: 'random',
-                    animSpeed: 500, //Slide transition speed
-                    pauseTime: 6000
-                });
-            });
-        </script>
+        <%@include file="/WEB-INF/jspf/header.jspf" %>
     </head>
-
     <body class="home page page-id-4 page-template page-template-homepage page-template-homepage-php">
         <div id="container">
             <div id="top"></div>
             <div id="header-overlay">
-                <div id="header">
-                    <div id="phone">
-                        <img id="phone-img" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/phone.png" alt="phone"/>
-                        <div class="phone-number under">636-394-7242</div>
-                        <div class="Clear"></div>
-                    </div>
-                    <div class="phone-number overlay">636-394-7242 <br/></div>
-                    <div id="logo">
-                        <a href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/resources/images/logo.png"/></a>
-                    </div>
-                    <div class="Clear"></div>
-                </div>
+                <%@include file="/WEB-INF/jspf/pageHeader.jspf" %>
                 <!-- header -->
                 <div id="wrapper-container">
-                    <div id="navigation">
-                        <div class="menu">
-                            <ul>
-                                <li class="page_item page-item-4 current_page_item"><a href="index.jsp">Home</a></li>
-                                <li class="page_item page-item-10"><a href="${pageContext.request.contextPath}/base/about-us">About Us</a></li>
-                                <li class="page_item page-item-13 page_item_has_children">
-                                    <a href="${pageContext.request.contextPath}/base/areas-of-practice/index.jsp">Practice Areas</a>
-                                    <ul class='children'>
-                                        <li class="page_item page-item-250"><a href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/index.jsp">Asset Protection Planning</a></li>
-                                        <li class="page_item page-item-257"><a href="${pageContext.request.contextPath}/base/areas-of-practice/business-succession-planning/index.jsp">Business Succession Planning</a></li>
-                                        <li class="page_item page-item-246"><a href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/index.jsp">Elder Law</a></li>
-                                        <li class="page_item page-item-248"><a href="${pageContext.request.contextPath}/base/areas-of-practice/long-term-care-planning/index.jsp">Long Term Care Planning</a></li>
-                                        <li class="page_item page-item-276"><a href="${pageContext.request.contextPath}/base/areas-of-practice/special-needs-planning/index.jsp">Special Needs Planning</a></li>
-                                        <li class="page_item page-item-252"><a href="${pageContext.request.contextPath}/base/areas-of-practice/trust-administration/index.jsp">Trust Administration</a></li>
-                                        <li class="page_item page-item-16"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/corporate-business-law/index.jsp">Corporate &#038; Business Law</a></li>
-                                        <li class="page_item page-item-53"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/personal-injury/index.jsp">Personal Injury</a></li>
-                                        <li class="page_item page-item-55"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/medicaid-planning/index.jsp">Medicaid Planning</a></li>
-                                        <li class="page_item page-item-57"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/index.jsp">Veterans Benefits</a></li>
-                                        <li class="page_item page-item-59"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/civil-litigation/index.jsp">Civil Litigation</a></li>
-                                        <li class="page_item page-item-61"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/probate/index.jsp">Probate</a></li>
-                                        <li class="page_item page-item-65"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/guardianships/index.jsp">Guardianships &#038; Conservatorships</a></li>
-                                        <li class="page_item page-item-67"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/real-estate-law/index.jsp">Real Estate Law</a></li>
-                                        <li class="page_item page-item-75"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/social-security-and-disability-appeals/index.jsp">Social Security and Disability Appeals</a></li>
-                                        <li class="page_item page-item-77"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/traffic-drivers-license-violations/index.jsp">Traffic and Drivers License Violations</a></li>
-                                        <li class="page_item page-item-79"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/wills-trusts-estate-planning/index.jsp">Wills, Trusts and Estate Planning</a></li>
-                                        <li class="page_item page-item-81"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/workers-compensation/index.jsp">Worker&#8217;s Compensation</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_item page-item-23 page_item_has_children"><a href="${pageContext.request.contextPath}/base/attorneys/index.jsp">Attorneys</a>
-                                    <ul class='children'>
-                                        <li class="page_item page-item-26"><a href="${pageContext.request.contextPath}/base/attorneys/gregory-f-quinn/index.jsp">Gregory F Quinn</a></li>
-                                        <li class="page_item page-item-29"><a href="${pageContext.request.contextPath}/base/attorneys/stephen-c-banton/index.jsp">Stephen C Banton</a></li>
-                                        <li class="page_item page-item-32"><a href="${pageContext.request.contextPath}/base/attorneys/brian-g-quinn/index.jsp">Brian G Quinn</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_item page-item-46 page_item_has_children">
-                                    <a href="${pageContext.request.contextPath}/base/contact/index.jsp">Contact Us</a>
-                                    <ul class='children'>
-                                        <li class="page_item page-item-126"><a href="${pageContext.request.contextPath}/base/contact/newsletter/index.jsp">Newsletter</a></li>
-                                        <li class="page_item page-item-116"><a href="${pageContext.request.contextPath}/base/contact/review-us/index.jsp">Review Us</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_item page-item-87"><a href="${pageContext.request.contextPath}/base/events-resources/index.jsp">Events</a></li>
-                                <li class="page_item page-item-87"><a href="/home">Client</a></li>
-                                <li class="page_item page-item-6"><a href="${pageContext.request.contextPath}/base/blog/index.jsp">Blog</a></li>
-                                <li class="page_item page-item-269"><a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/index.jsp">Legal Disclaimer and Privacy Policy</a></li>
-                            </ul>
-                        </div>
-
-                        <form method="get" id="searchform" action="http://qb-lawfirm.com/">
-                            <input type="text" name="s" id="s"/>
-                            <input type="submit" id="searchsubmit" value="Search"/>
-                        </form>
-                        <div class="Clear"></div>
-                    </div>
+                    <%@include file="/WEB-INF/jspf/menu.jspf" %>
                     <!-- navigation -->
                     <div id="wrapper">
                         <div id="nav-border"></div>
-
                         <div id="banner-shadow">
                             <div id="banner-container1">
                                 <div id="banner-container2">
@@ -350,7 +29,8 @@
                                                 <img src="${pageContext.request.contextPath}/resources/images/law1.jpg" title=""/>
                                                 <a href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/index.jsp">
                                                     <img src="${pageContext.request.contextPath}/resources/images/veterans1.jpg" title=""/>
-                                                </a></div>
+                                                </a>
+                                            </div>
                                             <div class="Clear"></div>
                                         </div>
                                     </div>
@@ -407,10 +87,6 @@
                                             during the probate and estate distribution process.
                                         </div>
                                     </div>
-
-                                    <!--<div class="introColumnLink">
-                                        <a href="">More</a>
-                                    </div>-->
                                 </div>
                                 <div class="introColumn" id="intro-column2">
                                     <div>
@@ -419,7 +95,6 @@
                                         </div>
                                         <div class="Clear"></div>
                                     </div>
-
                                     <div class="introColumnContentBorder">
                                         <div class="introColumnContent">
                                             <b>Avoid the devastating costs of a nursing home</b> or other long term care crisis

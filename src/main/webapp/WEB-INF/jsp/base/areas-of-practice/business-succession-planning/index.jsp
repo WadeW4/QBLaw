@@ -40,45 +40,26 @@
         <meta name="generator" content="WordPress 4.1" />
         <link rel='shortlink' href='../../index548d.html?p=257' />
         <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-
-
-        <!-- Top Up -->
         <script type="text/javascript">
             TopUp.host = "../../wp-content/themes/neptune/index.jsp";
             TopUp.images_path = "../../topup/images/top_up/index.jsp";
             TopUp.players_path = "../../topup/players/index.jsp";
         </script> 
-
-
-        <!-- Accordion -->
         <script type="text/javascript">
             $(function () {
-                // Accordion
-                $(".accordion").accordion({
-                    header: ".AccordionHeader",
-                    autoHeight: false
-                });
+                $(".accordion").accordion({ header: ".AccordionHeader",autoHeight: false});
             });
         </script>
-
-        <!-- Tabs -->
         <script>
             $(function () {
                 $(".tabs").tabs();
             });
         </script>
-
-        <!-- Dialog Box -->
         <script>
             $(function () {
                 $(".dialog").dialog();
             });
         </script>
-
-
-
-
-        <!-- QS Javascript -->
         <script type="text/javascript">
             (function ($) {
                 $.fn.sorted = function (customOptions) {
@@ -214,9 +195,6 @@
                 });
             });
         </script>
-
-
-        <!-- Cufon -->
         <script type="text/javascript">
             Cufon.replace('.header-title', {
             });
@@ -268,11 +246,7 @@
             Cufon.replace('.FooterColumn h2', {
                 fontFamily: 'Cicle Semi'
             });
-
         </script>
-
-
-        <!-- Nivo Slider -->
         <script type="text/javascript">
             $(window).load(function () {
                 $('#slider').nivoSlider({
@@ -282,7 +256,6 @@
             });
         </script>
     </head>
-
     <body class="page page-id-257 page-child parent-pageid-13 page-template-default">
         <div id="container">
             <div id="top"></div>

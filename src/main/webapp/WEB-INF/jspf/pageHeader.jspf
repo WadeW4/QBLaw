@@ -1,0 +1,12 @@
+<div id="header">
+    <div id="phone">
+        <img id="phone-img" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/phone.png" alt="phone"/>
+        <div class="phone-number under">636-394-7242</div>
+        <div class="Clear"></div>
+    </div>
+    <div class="phone-number overlay">636-394-7242 <br/></div>
+    <div id="logo">
+        <a href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/resources/images/logo.png"/></a>
+    </div>
+    <div class="Clear"></div>
+</div>

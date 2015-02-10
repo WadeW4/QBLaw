@@ -1,0 +1,56 @@
+<div id="navigation">
+    <div class="menu">
+        <ul>
+            <li class="page_item page-item-4 current_page_item"><a href="index.jsp">Home</a></li>
+            <li class="page_item page-item-10"><a href="${pageContext.request.contextPath}/base/about-us">About Us</a></li>
+            <li class="page_item page-item-13 page_item_has_children">
+                <a href="${pageContext.request.contextPath}/base/areas-of-practice">Practice Areas</a>
+                <ul class='children'>
+                    <li class="page_item page-item-250"><a href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/index.jsp">Asset Protection Planning</a></li>
+                    <li class="page_item page-item-257"><a href="${pageContext.request.contextPath}/base/areas-of-practice/business-succession-planning/index.jsp">Business Succession Planning</a></li>
+                    <li class="page_item page-item-246"><a href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/index.jsp">Elder Law</a></li>
+                    <li class="page_item page-item-248"><a href="${pageContext.request.contextPath}/base/areas-of-practice/long-term-care-planning/index.jsp">Long Term Care Planning</a></li>
+                    <li class="page_item page-item-276"><a href="${pageContext.request.contextPath}/base/areas-of-practice/special-needs-planning/index.jsp">Special Needs Planning</a></li>
+                    <li class="page_item page-item-252"><a href="${pageContext.request.contextPath}/base/areas-of-practice/trust-administration/index.jsp">Trust Administration</a></li>
+                    <li class="page_item page-item-16"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/corporate-business-law/index.jsp">Corporate &#038; Business Law</a></li>
+                    <li class="page_item page-item-53"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/personal-injury/index.jsp">Personal Injury</a></li>
+                    <li class="page_item page-item-55"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/medicaid-planning/index.jsp">Medicaid Planning</a></li>
+                    <li class="page_item page-item-57"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/index.jsp">Veterans Benefits</a></li>
+                    <li class="page_item page-item-59"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/civil-litigation/index.jsp">Civil Litigation</a></li>
+                    <li class="page_item page-item-61"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/probate/index.jsp">Probate</a></li>
+                    <li class="page_item page-item-65"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/guardianships/index.jsp">Guardianships &#038; Conservatorships</a></li>
+                    <li class="page_item page-item-67"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/real-estate-law/index.jsp">Real Estate Law</a></li>
+                    <li class="page_item page-item-75"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/social-security-and-disability-appeals/index.jsp">Social Security and Disability Appeals</a></li>
+                    <li class="page_item page-item-77"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/traffic-drivers-license-violations/index.jsp">Traffic and Drivers License Violations</a></li>
+                    <li class="page_item page-item-79"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/wills-trusts-estate-planning/index.jsp">Wills, Trusts and Estate Planning</a></li>
+                    <li class="page_item page-item-81"><a  href="${pageContext.request.contextPath}/base/areas-of-practice/workers-compensation/index.jsp">Worker&#8217;s Compensation</a></li>
+                </ul>
+            </li>
+            <li class="page_item page-item-23 page_item_has_children">
+                <a href="${pageContext.request.contextPath}/base/attorneys/index.jsp">Attorneys</a>
+                <ul class='children'>
+                    <li class="page_item page-item-26"><a href="${pageContext.request.contextPath}/base/attorneys/gregory-f-quinn/index.jsp">Gregory F Quinn</a></li>
+                    <li class="page_item page-item-29"><a href="${pageContext.request.contextPath}/base/attorneys/stephen-c-banton/index.jsp">Stephen C Banton</a></li>
+                    <li class="page_item page-item-32"><a href="${pageContext.request.contextPath}/base/attorneys/brian-g-quinn/index.jsp">Brian G Quinn</a></li>
+                </ul>
+            </li>
+            <li class="page_item page-item-46 page_item_has_children">
+                <a href="${pageContext.request.contextPath}/base/contact/index.jsp">Contact Us</a>
+                <ul class='children'>
+                    <li class="page_item page-item-126"><a href="${pageContext.request.contextPath}/base/contact/newsletter/index.jsp">Newsletter</a></li>
+                    <li class="page_item page-item-116"><a href="${pageContext.request.contextPath}/base/contact/review-us/index.jsp">Review Us</a></li>
+                </ul>
+            </li>
+            <li class="page_item page-item-87"><a href="${pageContext.request.contextPath}/base/events-resources/index.jsp">Events</a></li>
+            <li class="page_item page-item-87"><a href="/home">Client</a></li>
+            <li class="page_item page-item-6"><a href="${pageContext.request.contextPath}/base/blog/index.jsp">Blog</a></li>
+            <li class="page_item page-item-269"><a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/index.jsp">Legal Disclaimer and Privacy Policy</a></li>
+        </ul>
+    </div>
+
+    <form method="get" id="searchform" action="http://qb-lawfirm.com/">
+        <input type="text" name="s" id="s"/>
+        <input type="submit" id="searchsubmit" value="Search"/>
+    </form>
+    <div class="Clear"></div>
+</div>
