@@ -47,7 +47,6 @@
             <li class="page_item page-item-269"><a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/index.jsp">Legal Disclaimer and Privacy Policy</a></li>
         </ul>
     </div>
-
     <form method="get" id="searchform" action="http://qb-lawfirm.com/">
         <input type="text" name="s" id="s"/>
         <input type="submit" id="searchsubmit" value="Search"/>

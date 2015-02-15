@@ -3,34 +3,15 @@
     <head>
         <meta charset="utf-8">
         <%@include file="/WEB-INF/jspf/header.jspf" %>
+        <title>Practice Areas - Quinn &amp; Banton</title>
     </head>
     <body class="page page-id-13 page-parent page-template page-template-contact-sidebar page-template-contact-sidebar-php">
         <div id="container">
             <div id="top"></div>
             <div id="header-overlay">
-                <div id="header">
-                    <div id="phone">
-                        <img id="phone-img" src="${pageContext.request.contextPath}/wp-content/themes/neptune/images/phone.png" alt="phone" />
-                        <div class="phone-number under">636-394-7242</div>
-                        <div class="Clear"></div>
-                    </div>
-                    <div class="phone-number overlay">
-                        636-394-7242 <br />
-                    </div>
-                    <div id="logo">
-                        <a href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/images/logo.png" /></a>
-                    </div>  <!-- logo -->
-                    <div class="Clear"></div>
-                </div>  <!-- header -->
+                <%@include file="/WEB-INF/jspf/pageHeader.jspf" %>
                 <div id="wrapper-container">
-                    <div id="navigation">
-                        <div class="menu"><ul><li class="page_item page-item-4"><a href="${pageContext.request.contextPath}/">Home</a></li><li class="page_item page-item-10"><a href="../about-us/index.html">About Us</a></li><li class="page_item page-item-13 page_item_has_children current_page_item"><a href="index.html">Practice Areas</a><ul class='children'><li class="page_item page-item-250"><a href="asset-protection-planning/index.jsp">Asset Protection Planning</a></li><li class="page_item page-item-257"><a href="business-succession-planning/index.jsp">Business Succession Planning</a></li><li class="page_item page-item-246"><a href="elder-law/index.jsp">Elder Law</a></li><li class="page_item page-item-248"><a href="long-term-care-planning/index.jsp">Long Term Care Planning</a></li><li class="page_item page-item-276"><a href="special-needs-planning/index.html">Special Needs Planning</a></li><li class="page_item page-item-252"><a href="trust-administration/index.html">Trust Administration</a></li><li class="page_item page-item-16"><a href="corporate-business-law/index.jsp">Corporate &#038; Business Law</a></li><li class="page_item page-item-53"><a href="personal-injury/index.jsp">Personal Injury</a></li><li class="page_item page-item-55"><a href="medicaid-planning/index.jsp">Medicaid Planning</a></li><li class="page_item page-item-57"><a href="va-benefits/index.html">Veterans Benefits</a></li><li class="page_item page-item-59"><a href="civil-litigation/index.jsp">Civil Litigation</a></li><li class="page_item page-item-61"><a href="probate/index.jsp">Probate</a></li><li class="page_item page-item-65"><a href="guardianships/index.jsp">Guardianships &#038; Conservatorships</a></li><li class="page_item page-item-67"><a href="real-estate-law/index.jsp">Real Estate Law</a></li><li class="page_item page-item-75"><a href="social-security-and-disability-appeals/index.html">Social Security and Disability Appeals</a></li><li class="page_item page-item-77"><a href="traffic-drivers-license-violations/index.html">Traffic and Drivers License Violations</a></li><li class="page_item page-item-79"><a href="wills-trusts-estate-planning/index.html">Wills, Trusts and Estate Planning</a></li><li class="page_item page-item-81"><a href="workers-compensation/index.html">Worker&#8217;s Compensation</a></li></ul></li><li class="page_item page-item-23 page_item_has_children"><a href="../attorneys/index.html">Attorneys</a><ul class='children'><li class="page_item page-item-26"><a href="../attorneys/gregory-f-quinn/index.html">Gregory F Quinn</a></li><li class="page_item page-item-29"><a href="../attorneys/stephen-c-banton/index.html">Stephen C Banton</a></li><li class="page_item page-item-32"><a href="../attorneys/brian-g-quinn/index.html">Brian G Quinn</a></li></ul></li><li class="page_item page-item-46 page_item_has_children"><a href="../contact/index.html">Contact Us</a><ul class='children'><li class="page_item page-item-126"><a href="../contact/newsletter/index.html">Newsletter</a></li><li class="page_item page-item-116"><a href="../contact/review-us/index.html">Review Us</a></li></ul></li><li class="page_item page-item-87"><a href="../events-resources/index.html">Events/Resources</a></li><li class="page_item page-item-6"><a href="../blog/index.html">Blog</a></li><li class="page_item page-item-269"><a href="../legal-disclaimer-privacy-policy/index.html">Legal Disclaimer and Privacy Policy</a></li></ul></div>
-                        <form method="get" id="searchform" action="http://qb-lawfirm.com/">
-                            <input type="text" name="s" id="s" />
-                            <input type="submit" id="searchsubmit" value="Search" />
-                        </form> 
-                        <div class="Clear"></div>
-                    </div>  <!-- navigation -->
+                    <%@include file="/WEB-INF/jspf/menu.jspf" %>
                     <div id="wrapper">
                         <div id="breadcrumb">
                             <div class="breadcrumb-item">
@@ -48,67 +29,66 @@
                                     <ul>
                                         <li id="archives-3" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
                                             <ul>
-                                                <li><a href='../2015/01/index.html'>January 2015</a></li>
-                                                <li><a href='../2014/12/index.html'>December 2014</a></li>
-                                                <li><a href='../2014/11/index.html'>November 2014</a></li>
-                                                <li><a href='../2014/10/index.html'>October 2014</a></li>
-                                                <li><a href='../2014/09/index.html'>September 2014</a></li>
-                                                <li><a href='../2014/08/index.html'>August 2014</a></li>
-                                                <li><a href='../2014/07/index.html'>July 2014</a></li>
-                                                <li><a href='../2014/06/index.html'>June 2014</a></li>
-                                                <li><a href='../2014/05/index.html'>May 2014</a></li>
-                                                <li><a href='../2014/04/index.html'>April 2014</a></li>
-                                                <li><a href='../2014/03/index.html'>March 2014</a></li>
-                                                <li><a href='../2014/02/index.html'>February 2014</a></li>
-                                                <li><a href='../2013/10/index.html'>October 2013</a></li>
-                                                <li><a href='../2013/09/index.html'>September 2013</a></li>
-                                                <li><a href='../2013/07/index.html'>July 2013</a></li>
-                                                <li><a href='../2013/06/index.html'>June 2013</a></li>
-                                                <li><a href='../2013/05/index.html'>May 2013</a></li>
-                                                <li><a href='../2013/04/index.html'>April 2013</a></li>
-                                                <li><a href='../2013/02/index.html'>February 2013</a></li>
-                                                <li><a href='../2013/01/index.html'>January 2013</a></li>
-                                                <li><a href='../2012/10/index.html'>October 2012</a></li>
-                                                <li><a href='../2012/09/index.html'>September 2012</a></li>
-                                                <li><a href='../2012/08/index.html'>August 2012</a></li>
-                                                <li><a href='../2012/07/index.html'>July 2012</a></li>
-                                                <li><a href='../2012/06/index.html'>June 2012</a></li>
-                                                <li><a href='../2012/05/index.html'>May 2012</a></li>
-                                                <li><a href='../2012/04/index.html'>April 2012</a></li>
-                                                <li><a href='../2012/03/index.html'>March 2012</a></li>
-                                                <li><a href='../2012/02/index.html'>February 2012</a></li>
-                                                <li><a href='../2011/12/index.html'>December 2011</a></li>
-                                                <li><a href='../2011/11/index.html'>November 2011</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2015/01/'>January 2015</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/12/'>December 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base//2014/11/'>November 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/10/'>October 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/09/'>September 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/08/'>August 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/07/'>July 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/06/'>June 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/05/'>May 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/04/'>April 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/03/'>March 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2014/02/'>February 2014</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/10/'>October 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/09/'>September 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/07/'>July 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/06/'>June 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/05/'>May 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/04/'>April 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/02/'>February 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2013/01/'>January 2013</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/10/'>October 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/09/'>September 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/08/'>August 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/07/'>July 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/06/'>June 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/05/'>May 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/04/'>April 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/03/'>March 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2012/02/'>February 2012</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2011/12/'>December 2011</a></li>
+                                                <li><a href='${pageContext.request.contextPath}/base/2011/11/'>November 2011</a></li>
                                             </ul>
                                         </li>
-                                        <li id="recent-comments-3" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
-                                            <ul id="recentcomments"></ul></li>
+                                        <li id="recent-comments-3" class="widget widget_recent_comments">
+                                            <h2 class="widgettitle">Recent Comments</h2>
+                                            <ul id="recentcomments"></ul>
+                                        </li>
                                     </ul>
                                 </div>
-
-
                                 <div id="narrowcolumn">
-
                                     <div class="post" id="post-13">
                                         <div class="entry">
                                             <p>Quinn &amp; Banton are experienced attorneys in the following practice areas:<br />
-                                                &#8211; <a title="Corporate &amp; Business Law" href="corporate-business-law/index.jsp">Business and Corporate Law</a><br />
-                                                &#8211; <a title="Wills, Trusts and Estate Planning" href="wills-trusts-estate-planning/index.html">Wills, Trusts and Estate Planning<br />
-                                                </a>- <a title="Medicaid Planning" href="medicaid-planning/index.jsp">Medicaid Planning<br />
-                                                </a>- <a title="Veterans Benefits" href="va-benefits/index.html">Veterans Benefits<br />
-                                                </a>- <a title="Elder Law" href="elder-law/index.jsp">Elder Law</a> and <a title="Special Needs Planning" href="special-needs-planning/index.html">Special Needs Planning<br />
-                                                </a>- <a title="Asset Protection Planning" href="asset-protection-planning/index.jsp">Asset Protection Planning<br />
-                                                </a>- <a title="Long Term Care Planning" href="long-term-care-planning/index.jsp">Long Term Care Planning<br />
-                                                </a>- <a title="Probate" href="probate/index.jsp">Probate Estates<br />
-                                                </a>- <a title="Guardianships &amp; Conservatorships" href="guardianships/index.jsp">Guardianships and Conservatorships<br />
-                                                </a>- <a title="Business Succession Planning" href="business-succession-planning/index.jsp">Business Succession Planning<br />
-                                                </a>- <a title="Real Estate Law" href="real-estate-law/index.jsp">Real Estate Law, Deeds, Contracts<br />
-                                                </a>- <a title="Civil Litigation" href="civil-litigation/index.jsp">Civil Litigation<br />
-                                                </a>- <a title="Social Security and Disability Appeals" href="social-security-and-disability-appeals/index.html">Social Security Disability and Appeals<br />
-                                                </a>- <a title="Traffic and Drivers License Violations" href="traffic-drivers-license-violations/index.html">Traffic and Drivers’ License Violations<br />
-                                                </a>- <a title="Worker’s Compensation" href="workers-compensation/index.html">Workers’ Compensation</a></p>
+                                                &#8211; <a title="Corporate &amp; Business Law" href="${pageContext.request.contextPath}/base/areas-of-practice/corporate-business-law/">Business and Corporate Law</a><br />
+                                                &#8211; <a title="Wills, Trusts and Estate Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/wills-trusts-estate-planning/">Wills, Trusts and Estate Planning<br />
+                                                </a>- <a title="Medicaid Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/medicaid-planning/">Medicaid Planning<br />
+                                                </a>- <a title="Veterans Benefits" href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/">Veterans Benefits<br />
+                                                </a>- <a title="Elder Law" href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/">Elder Law</a> and <a title="Special Needs Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/special-needs-planning/">Special Needs Planning<br />
+                                                </a>- <a title="Asset Protection Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/">Asset Protection Planning<br />
+                                                </a>- <a title="Long Term Care Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/long-term-care-planning/">Long Term Care Planning<br />
+                                                </a>- <a title="Probate" href="${pageContext.request.contextPath}/base/areas-of-practice/probate/">Probate Estates<br />
+                                                </a>- <a title="Guardianships &amp; Conservatorships" href="${pageContext.request.contextPath}/base/areas-of-practice/guardianships/">Guardianships and Conservatorships<br />
+                                                </a>- <a title="Business Succession Planning" href="business-succession-planning/">Business Succession Planning<br />
+                                                </a>- <a title="Real Estate Law" href="${pageContext.request.contextPath}/base/areas-of-practice/real-estate-law/">Real Estate Law, Deeds, Contracts<br />
+                                                </a>- <a title="Civil Litigation" href="${pageContext.request.contextPath}/base/areas-of-practice/civil-litigation/">Civil Litigation<br />
+                                                </a>- <a title="Social Security and Disability Appeals" href="${pageContext.request.contextPath}/base/areas-of-practice/social-security-and-disability-appeals/">Social Security Disability and Appeals<br />
+                                                </a>- <a title="Traffic and Drivers License Violations" href="${pageContext.request.contextPath}/base/areas-of-practice/traffic-drivers-license-violations/">Traffic and Drivers’ License Violations<br />
+                                                </a>- <a title="Worker’s Compensation" href="${pageContext.request.contextPath}/base/areas-of-practice/workers-compensation/">Workers’ Compensation</a></p>
                                             <p>Remember: Prior Planning Prevents Poor Performance</p>
-                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/areas-of-practice/">By <span style="float:none" class="author vcard"><span class="fn"><a rel="author" href="../author/admin/index.html" class="authorsure-author-link">admin</a></span></span>.</p>						</div>
+                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/areas-of-practice/">By <span style="float:none" class="author vcard"><span class="fn"><a rel="author" href="../author/admin/" class="authorsure-author-link">admin</a></span></span>.</p>						</div>
                                         <div id="respond">
 
                                             <form action="#" method="post" id="commentform">
@@ -161,12 +141,12 @@
                                     <div class="FooterColumn" id="footer-column2">
                                         <div class="border"><h2>Recent Posts</h2></div>
                                         <ul>
-                                            <li><a href='../injured-on-the-job-in-missouri-heres-what-you-need-to-know/index.html'>Injured on the Job in Missouri? Here’s What You Need to Know</a></li>
-                                            <li><a href='../new-years-resolution-gain-peace-of-mind-with-a-healthcare-power-of-attorney/index.html'>New Year’s Resolution: Gain Peace of Mind with a Healthcare Power of Attorney</a></li>
-                                            <li><a href='../protecting-your-assets-and-your-future-with-an-umbrella-policy/index.html'>Protecting Your Assets and Your Future with an Umbrella Policy</a></li>
-                                            <li><a href='../mechanics-lien-in-missouri-can-it-help-me-get-paid/index.html'>Mechanics Lien in Missouri – Can It Help Me Get Paid?</a></li>
-                                            <li><a href='../young-parents-answer-these-4-questions-when-choosing-life-insurance/index.html'>Young Parents, Answer These 4 Questions When Choosing Life Insurance</a></li>
-                                            <li><a href='../dont-want-to-go-to-trial-consider-alternative-dispute-resolution/index.html'>Don’t Want to Go to Trial? Consider Alternative Dispute Resolution</a></li>
+                                            <li><a href='../injured-on-the-job-in-missouri-heres-what-you-need-to-know/'>Injured on the Job in Missouri? Here’s What You Need to Know</a></li>
+                                            <li><a href='../new-years-resolution-gain-peace-of-mind-with-a-healthcare-power-of-attorney/'>New Year’s Resolution: Gain Peace of Mind with a Healthcare Power of Attorney</a></li>
+                                            <li><a href='../protecting-your-assets-and-your-future-with-an-umbrella-policy/'>Protecting Your Assets and Your Future with an Umbrella Policy</a></li>
+                                            <li><a href='../mechanics-lien-in-missouri-can-it-help-me-get-paid/'>Mechanics Lien in Missouri – Can It Help Me Get Paid?</a></li>
+                                            <li><a href='../young-parents-answer-these-4-questions-when-choosing-life-insurance/'>Young Parents, Answer These 4 Questions When Choosing Life Insurance</a></li>
+                                            <li><a href='../dont-want-to-go-to-trial-consider-alternative-dispute-resolution/'>Don’t Want to Go to Trial? Consider Alternative Dispute Resolution</a></li>
                                         </ul>
                                     </div>
 
@@ -200,7 +180,7 @@
 
                 </div><!-- wrapper-container -->
                 <div id="copyright">
-                    Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="../legal-disclaimer-privacy-policy/index.html">legal disclaimer and privacy policy</a>		<a id="top-link" href="#top">Top</a>
+                    Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="../legal-disclaimer-privacy-policy/">legal disclaimer and privacy policy</a>		<a id="top-link" href="#top">Top</a>
                 </div>
             </div><!-- container -->
 
