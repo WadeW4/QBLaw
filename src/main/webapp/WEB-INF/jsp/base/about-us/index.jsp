@@ -19,7 +19,8 @@
                                     <img id="breadcrumb-home" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_home.png" />
                                 </a>
                             </div>
-                            <img class='breadcrumb-arrow' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_arrow.png' /><div class='breadcrumb-item'>About Us</div>	
+                            <img class='breadcrumb-arrow' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_arrow.png' />
+                            <div class='breadcrumb-item'>About Us</div>	
                         </div>
                         <div id="page-header-container">
                             <div id="page-header">
@@ -82,7 +83,15 @@
                                             <p>Our practice has steadily grown, including the addition of partner Steve Banton in 1983 after he was elected a Missouri State Representative.</p>
                                             <p>In 2007, upon his graduation from Saint Louis University School of Law and admittance into the Missouri Bar, we added Brian Quinn as an Associate Attorney.  Brian Quinn later became a partner with our firm in 2013.</p>
                                             <p>With the support of an exceptional staff, we provide effective, affordable and attentive representation in each of the areas listed below.</p>
-                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/about-us/">By <span style="float:none" class="author vcard"><span class="fn"><a rel="author" href="../author/admin/index.html" class="authorsure-author-link">admin</a></span></span>.</p>												</div> <!-- entry -->
+                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/about-us/">
+                                                By 
+                                                <span style="float:none" class="author vcard">
+                                                    <span class="fn">
+                                                        <a rel="author" href="../author/admin/index.html" class="authorsure-author-link">admin</a>
+                                                    </span>
+                                                </span>.
+                                            </p>												
+                                        </div> <!-- entry -->
                                     </div> <!-- post -->
                                     <br />
                                     <div class="comment-heading2">
@@ -127,7 +136,7 @@
                         </div> <!-- content -->
 
 
-                        <img id="content-bottom" src="../wp-content/themes/neptune/images/content_bottom.png" />
+                        <img id="content-bottom" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/content_bottom.png" />
 
                     </div> <!-- wrapper -->
 
@@ -138,11 +147,11 @@
                                     <div class="FooterColumn" id="footer-column1">
                                         <div class="border"><h2>Get Social With Us!</h2></div>
                                         <div class="FooterColumnText">
-                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="../images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
-                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="../images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
-                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="../images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
-                                            <img src="../images/naela150.png"><br /><br />
-                                                <img src="../images/Bar-Logos2.jpg">			</div>
+                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="${pageContext.request.contextPath}/resources/images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
+                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="${pageContext.request.contextPath}/resources/images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
+                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="${pageContext.request.contextPath}/resources/images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
+                                            <img src="${pageContext.request.contextPath}/resources/images/images/naela150.png"><br /><br />
+                                                <img src="${pageContext.request.contextPath}/resources/images/images/Bar-Logos2.jpg">			</div>
                                                     </div>
 
                                                     <div class="FooterColumn" id="footer-column2">
@@ -167,12 +176,18 @@
                                                         <div class="border"><h2 id="emailus">Email Us</h2></div>
                                                         <form action="#" method="post" id="commentform2" name="commentform2">
                                                             <input type="hidden" id="contactsubmitted2" name="contactsubmitted2" value="yes">
-                                                                <p><input type="text" name="contactname2" id="contactname2" value="" size="22" tabindex="1" onFocus="this.className = 'selected'" onBlur="this.className = ''"  />
-                                                                    <label for="author2"><small>Name (required) </small></label></p>
-                                                                <p><input type="text" name="contactemail2" id="contactemail2" value="" size="22" tabindex="2" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
-                                                                    <label for="email2"><small>Email (required) </small></label></p>
-                                                                <p><input type="text" name="contactwebsite2" id="contactwebsite2" value="" size="22" tabindex="3" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
-                                                                    <label for="url2"><small>Website</small></label></p>
+                                                                <p>
+                                                                    <input type="text" name="contactname2" id="contactname2" value="" size="22" tabindex="1" onFocus="this.className = 'selected'" onBlur="this.className = ''"  />
+                                                                    <label for="author2"><small>Name (required) </small></label>
+                                                                </p>
+                                                                <p>
+                                                                    <input type="text" name="contactemail2" id="contactemail2" value="" size="22" tabindex="2" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
+                                                                    <label for="email2"><small>Email (required) </small></label>
+                                                                </p>
+                                                                <p>
+                                                                    <input type="text" name="contactwebsite2" id="contactwebsite2" value="" size="22" tabindex="3" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
+                                                                    <label for="url2"><small>Website</small></label>
+                                                                </p>
                                                                 <p><textarea name="contactmessage2" id="contactmessage2" cols="32" rows="10" tabindex="4" onFocus="this.className = 'selected'" onBlur="this.className = ''"></textarea></p>
                                                                 <p><input name="submit" type="submit" id="submit" tabindex="5" value="Send" /></p>
                                                         </form>
@@ -187,13 +202,12 @@
 
                                                     </div><!-- wrapper-container -->
                                                     <div id="copyright">
-                                                        Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="../legal-disclaimer-privacy-policy/index.html">legal disclaimer and privacy policy</a>		<a id="top-link" href="#top">Top</a>
+                                                        Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/indexjsp">legal disclaimer and privacy policy</a>		<a id="top-link" href="#top">Top</a>
                                                     </div>
                                                     </div><!-- container -->
 
                                                     <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/plugins/akismet/_inc/form459e.js?ver=3.0.4'></script>
                                                     <script type='text/javascript' src='../wp-includes/js/comment-reply.min2f54.js?ver=4.1'></script>
-
                                                     <script type="text/javascript">
 
                                                                                                                         var _gaq = _gaq || [];

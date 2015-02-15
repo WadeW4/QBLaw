@@ -27,7 +27,8 @@
                             <div id="page">
                                 <div id="sidebar" role="complementary">
                                     <ul>
-                                        <li id="archives-3" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+                                        <li id="archives-3" class="widget widget_archive">
+                                            <h2 class="widgettitle">Archives</h2>
                                             <ul>
                                                 <li><a href='${pageContext.request.contextPath}/base/2015/01/'>January 2015</a></li>
                                                 <li><a href='${pageContext.request.contextPath}/base/2014/12/'>December 2014</a></li>
@@ -70,60 +71,62 @@
                                 </div>
                                 <div id="narrowcolumn">
                                     <div class="post" id="post-13">
-                                        <div class="entry">
+                                        <div class="entry">  
                                             <p>Quinn &amp; Banton are experienced attorneys in the following practice areas:<br />
-                                                &#8211; <a title="Corporate &amp; Business Law" href="${pageContext.request.contextPath}/base/areas-of-practice/corporate-business-law/">Business and Corporate Law</a><br />
-                                                &#8211; <a title="Wills, Trusts and Estate Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/wills-trusts-estate-planning/">Wills, Trusts and Estate Planning<br />
-                                                </a>- <a title="Medicaid Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/medicaid-planning/">Medicaid Planning<br />
-                                                </a>- <a title="Veterans Benefits" href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/">Veterans Benefits<br />
-                                                </a>- <a title="Elder Law" href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/">Elder Law</a> and <a title="Special Needs Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/special-needs-planning/">Special Needs Planning<br />
-                                                </a>- <a title="Asset Protection Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/">Asset Protection Planning<br />
-                                                </a>- <a title="Long Term Care Planning" href="${pageContext.request.contextPath}/base/areas-of-practice/long-term-care-planning/">Long Term Care Planning<br />
-                                                </a>- <a title="Probate" href="${pageContext.request.contextPath}/base/areas-of-practice/probate/">Probate Estates<br />
-                                                </a>- <a title="Guardianships &amp; Conservatorships" href="${pageContext.request.contextPath}/base/areas-of-practice/guardianships/">Guardianships and Conservatorships<br />
-                                                </a>- <a title="Business Succession Planning" href="business-succession-planning/">Business Succession Planning<br />
-                                                </a>- <a title="Real Estate Law" href="${pageContext.request.contextPath}/base/areas-of-practice/real-estate-law/">Real Estate Law, Deeds, Contracts<br />
-                                                </a>- <a title="Civil Litigation" href="${pageContext.request.contextPath}/base/areas-of-practice/civil-litigation/">Civil Litigation<br />
+                                                &#8211; <a title="Corporate &amp; Business Law"         href="${pageContext.request.contextPath}/base/areas-of-practice/corporate-business-law/">Business and Corporate Law</a><br />
+                                                &#8211; <a title="Wills, Trusts and Estate Planning"    href="${pageContext.request.contextPath}/base/areas-of-practice/wills-trusts-estate-planning/">Wills, Trusts and Estate Planning<br />
+                                                </a>- <a title="Medicaid Planning"                      href="${pageContext.request.contextPath}/base/areas-of-practice/medicaid-planning/">Medicaid Planning<br />
+                                                </a>- <a title="Veterans Benefits"                      href="${pageContext.request.contextPath}/base/areas-of-practice/va-benefits/">Veterans Benefits<br />
+                                                </a>- <a title="Elder Law"                              href="${pageContext.request.contextPath}/base/areas-of-practice/elder-law/">Elder Law</a> and 
+                                                      <a title="Special Needs Planning"                 href="${pageContext.request.contextPath}/base/areas-of-practice/special-needs-planning/">Special Needs Planning<br />
+                                                </a>- <a title="Asset Protection Planning"              href="${pageContext.request.contextPath}/base/areas-of-practice/asset-protection-planning/">Asset Protection Planning<br />
+                                                </a>- <a title="Long Term Care Planning"                href="${pageContext.request.contextPath}/base/areas-of-practice/long-term-care-planning/">Long Term Care Planning<br />
+                                                </a>- <a title="Probate"                                href="${pageContext.request.contextPath}/base/areas-of-practice/probate/">Probate Estates<br />
+                                                </a>- <a title="Guardianships &amp; Conservatorships"   href="${pageContext.request.contextPath}/base/areas-of-practice/guardianships/">Guardianships and Conservatorships<br />
+                                                </a>- <a title="Business Succession Planning"           href="${pageContext.request.contextPath}/base/areas-of-practice/business-succession-planning/">Business Succession Planning<br />
+                                                </a>- <a title="Real Estate Law"                        href="${pageContext.request.contextPath}/base/areas-of-practice/real-estate-law/">Real Estate Law, Deeds, Contracts<br />
+                                                </a>- <a title="Civil Litigation"                       href="${pageContext.request.contextPath}/base/areas-of-practice/civil-litigation/">Civil Litigation<br />
                                                 </a>- <a title="Social Security and Disability Appeals" href="${pageContext.request.contextPath}/base/areas-of-practice/social-security-and-disability-appeals/">Social Security Disability and Appeals<br />
                                                 </a>- <a title="Traffic and Drivers License Violations" href="${pageContext.request.contextPath}/base/areas-of-practice/traffic-drivers-license-violations/">Traffic and Drivers’ License Violations<br />
-                                                </a>- <a title="Worker’s Compensation" href="${pageContext.request.contextPath}/base/areas-of-practice/workers-compensation/">Workers’ Compensation</a></p>
+                                                </a>- <a title="Worker’s Compensation"                href="${pageContext.request.contextPath}/base/areas-of-practice/workers-compensation/">Workers’ Compensation</a>
+                                            </p>
                                             <p>Remember: Prior Planning Prevents Poor Performance</p>
-                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/areas-of-practice/">By <span style="float:none" class="author vcard"><span class="fn"><a rel="author" href="../author/admin/" class="authorsure-author-link">admin</a></span></span>.</p>						</div>
+                                            <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/areas-of-practice/">
+                                                By 
+                                                <span style="float:none" class="author vcard">
+                                                    <span class="fn">
+                                                        <a rel="author" href="${pageContext.request.contextPath}/base/author/admin/" class="authorsure-author-link">admin</a>
+                                                    </span>
+                                                </span>.
+                                            </p>		
+                                        </div>
                                         <div id="respond">
-
                                             <form action="#" method="post" id="commentform">
-
                                                 <input type="hidden" id="contactsubmitted" name="contactsubmitted" value="yes">
-
-                                                <p><input type="text" name="contactname" id="contactname" value="" size="22" tabindex="1"  />
-                                                    <label for="author"><small>Name (required) </small></label></p>
-
-                                                <p><input type="text" name="contactemail" id="contactemail" value="" size="22" tabindex="2"  />
-                                                    <label for="email"><small>Email (required) </small></label></p>
-
-                                                <p><input type="text" name="contactwebsite" id="contactwebsite" value="" size="22" tabindex="3" />
-                                                    <label for="url"><small>Website</small></label></p>
-
-                                                <p><textarea name="contactmessage" id="contactmessage" cols="50" rows="10" tabindex="4"></textarea></p>
-
-                                                <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit" />
+                                                <p>
+                                                    <input type="text" name="contactname" id="contactname" value="" size="22" tabindex="1"  />
+                                                    <label for="author"><small>Name (required) </small></label>
                                                 </p>
-
+                                                <p>
+                                                    <input type="text" name="contactemail" id="contactemail" value="" size="22" tabindex="2"  />
+                                                    <label for="email"><small>Email (required) </small></label>
+                                                </p>
+                                                <p>
+                                                    <input type="text" name="contactwebsite" id="contactwebsite" value="" size="22" tabindex="3" />
+                                                    <label for="url"><small>Website</small></label>
+                                                </p>
+                                                <p><textarea name="contactmessage" id="contactmessage" cols="50" rows="10" tabindex="4"></textarea></p>
+                                                <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit" /></p>
                                             </form>
-
                                         </div>
                                     </div>
-
                                     <div class="Clear"></div>
                                 </div> <!-- narrowcolumn -->
                                 <div class="Clear"></div>
                             </div> <!-- page -->
                         </div> <!-- content -->
-
-                        <img id="content-bottom" src="../wp-content/themes/neptune/images/content_bottom.png" />
-
+                        <img id="content-bottom" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/content_bottom.png" />
                     </div> <!-- wrapper -->
-
                     <div id="footer-overlay">
                         <div id="footer-container2">
                             <div id="footer-container">
@@ -131,13 +134,13 @@
                                     <div class="FooterColumn" id="footer-column1">
                                         <div class="border"><h2>Get Social With Us!</h2></div>
                                         <div class="FooterColumnText">
-                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="../images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
-                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="../images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
-                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="../images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
+                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="${pageContext.request.contextPath}/resources/images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
+                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="${pageContext.request.contextPath}/resources/images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
+                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="${pageContext.request.contextPath}/resources/images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
                                             <img src="../images/naela150.png"><br /><br />
-                                            <img src="../images/Bar-Logos2.jpg">			</div>
+                                            <img src="../images/Bar-Logos2.jpg">	
+                                        </div>
                                     </div>
-
                                     <div class="FooterColumn" id="footer-column2">
                                         <div class="border"><h2>Recent Posts</h2></div>
                                         <ul>
@@ -149,10 +152,8 @@
                                             <li><a href='../dont-want-to-go-to-trial-consider-alternative-dispute-resolution/'>Don’t Want to Go to Trial? Consider Alternative Dispute Resolution</a></li>
                                         </ul>
                                     </div>
-
                                     <div class="FooterColumn" id="footer-column3">
                                     </div>
-
                                     <div class="FooterColumn" id="footer-column4">
                                     </div>
                                     <!-- contact form start -->
@@ -160,12 +161,18 @@
                                         <div class="border"><h2 id="emailus">Email Us</h2></div>
                                         <form action="#" method="post" id="commentform2" name="commentform2">
                                             <input type="hidden" id="contactsubmitted2" name="contactsubmitted2" value="yes">
-                                            <p><input type="text" name="contactname2" id="contactname2" value="" size="22" tabindex="1" onFocus="this.className = 'selected'" onBlur="this.className = ''"  />
-                                                <label for="author2"><small>Name (required) </small></label></p>
-                                            <p><input type="text" name="contactemail2" id="contactemail2" value="" size="22" tabindex="2" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
-                                                <label for="email2"><small>Email (required) </small></label></p>
-                                            <p><input type="text" name="contactwebsite2" id="contactwebsite2" value="" size="22" tabindex="3" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
-                                                <label for="url2"><small>Website</small></label></p>
+                                            <p>
+                                                <input type="text" name="contactname2" id="contactname2" value="" size="22" tabindex="1" onFocus="this.className = 'selected'" onBlur="this.className = ''"  />
+                                                <label for="author2"><small>Name (required) </small></label>
+                                            </p>
+                                            <p>
+                                                <input type="text" name="contactemail2" id="contactemail2" value="" size="22" tabindex="2" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
+                                                <label for="email2"><small>Email (required) </small></label>
+                                            </p>
+                                            <p>
+                                                <input type="text" name="contactwebsite2" id="contactwebsite2" value="" size="22" tabindex="3" onFocus="this.className = 'selected'" onBlur="this.className = ''" />
+                                                <label for="url2"><small>Website</small></label>
+                                            </p>
                                             <p><textarea name="contactmessage2" id="contactmessage2" cols="32" rows="10" tabindex="4" onFocus="this.className = 'selected'" onBlur="this.className = ''"></textarea></p>
                                             <p><input name="submit" type="submit" id="submit" tabindex="5" value="Send" /></p>
                                         </form>
@@ -177,15 +184,13 @@
                         </div>
                         <div id="wrapper-bottom"></div>
                     </div>
-
                 </div><!-- wrapper-container -->
                 <div id="copyright">
-                    Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="../legal-disclaimer-privacy-policy/">legal disclaimer and privacy policy</a>		<a id="top-link" href="#top">Top</a>
+                    Quinn & Banton, LLP is licensed to practice law in both Missouri and Illinois. View our <a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/">legal disclaimer and privacy policy</a>
+                    <a id="top-link" href="#top">Top</a>
                 </div>
             </div><!-- container -->
-
             <script type='text/javascript' src='../wp-includes/js/comment-reply.min2f54.js?ver=4.1'></script>
-
             <script type="text/javascript">
 
                                                 var _gaq = _gaq || [];
