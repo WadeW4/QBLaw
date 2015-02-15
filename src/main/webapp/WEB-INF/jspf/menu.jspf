@@ -27,7 +27,7 @@
                 </ul>
             </li>
             <li class="page_item page-item-23 page_item_has_children">
-                <a href="${pageContext.request.contextPath}/base/attorneys/index.jsp">Attorneys</a>
+                <a href="${pageContext.request.contextPath}/base/attorneys">Attorneys</a>
                 <ul class='children'>
                     <li class="page_item page-item-26"><a href="${pageContext.request.contextPath}/base/attorneys/gregory-f-quinn/index.jsp">Gregory F Quinn</a></li>
                     <li class="page_item page-item-29"><a href="${pageContext.request.contextPath}/base/attorneys/stephen-c-banton/index.jsp">Stephen C Banton</a></li>
@@ -35,16 +35,16 @@
                 </ul>
             </li>
             <li class="page_item page-item-46 page_item_has_children">
-                <a href="${pageContext.request.contextPath}/base/contact/index.jsp">Contact Us</a>
+                <a href="${pageContext.request.contextPath}/base/contact">Contact Us</a>
                 <ul class='children'>
                     <li class="page_item page-item-126"><a href="${pageContext.request.contextPath}/base/contact/newsletter/index.jsp">Newsletter</a></li>
                     <li class="page_item page-item-116"><a href="${pageContext.request.contextPath}/base/contact/review-us/index.jsp">Review Us</a></li>
                 </ul>
             </li>
-            <li class="page_item page-item-87"><a href="${pageContext.request.contextPath}/base/events-resources/index.jsp">Events</a></li>
+            <li class="page_item page-item-87"><a href="${pageContext.request.contextPath}/base/events-resources">Events</a></li>
             <li class="page_item page-item-87"><a href="/home">Client</a></li>
-            <li class="page_item page-item-6"><a href="${pageContext.request.contextPath}/base/blog/index.jsp">Blog</a></li>
-            <li class="page_item page-item-269"><a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy/index.jsp">Legal Disclaimer and Privacy Policy</a></li>
+            <li class="page_item page-item-6"><a href="${pageContext.request.contextPath}/base/blog">Blog</a></li>
+            <li class="page_item page-item-269"><a href="${pageContext.request.contextPath}/base/legal-disclaimer-privacy-policy">Legal Disclaimer and Privacy Policy</a></li>
         </ul>
     </div>
     <form method="get" id="searchform" action="http://qb-lawfirm.com/">

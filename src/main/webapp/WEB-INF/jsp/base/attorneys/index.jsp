@@ -15,9 +15,11 @@
                     <div id="wrapper">
                         <div id="breadcrumb">
                             <div class="breadcrumb-item">
-                                <a href="../index.html"><img id="breadcrumb-home" src="../wp-content/themes/neptune/images/breadcrumb_home.png" /></a>
+                                <a href="${pageContext.request.contextPath}/">
+                                    <img id="breadcrumb-home" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_home.png" />
+                                </a>
                             </div>
-                            <img class='breadcrumb-arrow' src='../wp-content/themes/neptune/images/breadcrumb_arrow.png' />
+                            <img class='breadcrumb-arrow' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_arrow.png' />
                             <div class='breadcrumb-item'>Attorneys</div>	
                         </div>
                         <div id="page-header-container">
@@ -74,9 +76,9 @@
                                     <div class="post" id="post-23">
                                         <div class="entry">
                                             <p>The law firm of Quinn and Banton, L.L.P. provides personalized client services in complex areas of law. Our commitment to deliver prompt, high-quality, cost-effective legal services is the foundation of our business. This philosophy guides our attorneys in serving every client&#8217;s legal needs in a friendly, accessible way. Our attorney’s include:</p>
-                                            <p><a title="Gregory F Quinn" href="gregory-f-quinn/index.html">Greg F. Quinn – Partner</a></p>
-                                            <p><a title="Stephen C Banton" href="stephen-c-banton/index.html">Stephen C. Banton – Partner</a></p>
-                                            <p><a title="Brian G Quinn" href="brian-g-quinn/index.html">Brian G. Quinn – Associate</a></p>
+                                            <p><a title="Gregory F Quinn"  href="${pageContext.request.contextPath}/base/attorneys/gregory-f-quinn">Greg F. Quinn – Partner</a></p>
+                                            <p><a title="Stephen C Banton" href="${pageContext.request.contextPath}/base/attorneys/stephen-c-banton">Stephen C. Banton – Partner</a></p>
+                                            <p><a title="Brian G Quinn"    href="${pageContext.request.contextPath}/base/attorneys/brian-g-quinn">Brian G. Quinn – Associate</a></p>
                                             <p id="authorsure-last-updated" class="updated left" itemscope="itemscope" itemtype="http://schema.org/WebPage" itemid="http://qb-lawfirm.com/attorneys/">By <span style="float:none" class="author vcard"><span class="fn"><a rel="author" href="../author/admin/index.html" class="authorsure-author-link">admin</a></span></span>.</p>												</div> <!-- entry -->
                                     </div> <!-- post -->
                                     <br />
@@ -127,7 +129,7 @@
                         </div> <!-- content -->
 
 
-                        <img id="content-bottom" src="../wp-content/themes/neptune/images/content_bottom.png" />
+                        <img id="content-bottom" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/content_bottom.png" />
 
                     </div> <!-- wrapper -->
 
@@ -138,11 +140,12 @@
                                     <div class="FooterColumn" id="footer-column1">
                                         <div class="border"><h2>Get Social With Us!</h2></div>
                                         <div class="FooterColumnText">
-                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="../images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
-                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="../images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
-                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="../images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
-                                            <img src="../images/naela150.png"><br /><br />
-                                            <img src="../images/Bar-Logos2.jpg">			</div>
+                                            <a target="_blank" href="http://www.facebook.com/pages/Quinn-Banton-LLP/126415110747423"><img src="${pageContext.request.contextPath}/resources/images/facebookicon.png" border="0"> Our Facebook Page</a><br /><br />
+                                            <a target="_blank" href="http://twitter.com/quinnbantonllp"><img src="${pageContext.request.contextPath}/resources/images/twittericon.png" border="0"> Our Twitter Page</a><br /><br />
+                                            <a target="_blank" href="http://www.linkedin.com/company/2422364"><img src="${pageContext.request.contextPath}/resources/images/linkedinicon.png" border="0">  Our LinkedIn Page</a><br /><br />
+                                            <img src="${pageContext.request.contextPath}/resources/images/naela150.png"><br /><br />
+                                            <img src="${pageContext.request.contextPath}/resources/images/Bar-Logos2.jpg">
+                                        </div>
                                     </div>
 
                                     <div class="FooterColumn" id="footer-column2">
@@ -191,7 +194,7 @@
                 </div>
             </div><!-- container -->
 
-            <script type='text/javascript' src='../wp-content/plugins/akismet/_inc/form459e.js?ver=3.0.4'></script>
+            <script type='text/javascript' src='${pageContext.request.contextPath}/resources/wp-content/plugins/akismet/_inc/form459e.js?ver=3.0.4'></script>
             <script type='text/javascript' src='../wp-includes/js/comment-reply.min2f54.js?ver=4.1'></script>
 
             <script type="text/javascript">

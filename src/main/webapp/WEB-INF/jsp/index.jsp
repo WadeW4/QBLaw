@@ -43,11 +43,9 @@
                                         <div id="welcome-message-left">
                                             Solid planning ALWAYS leads to a better future…
                                         </div>
-
                                         <div id="welcome-message-right">
                                             <a href="about-us/index.jsp">
                                                 <img src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/button_welcome.png"/>
-
                                                 <div id="welcome-message-right-content">What Makes Us Different</div>
                                             </a>
                                         </div>

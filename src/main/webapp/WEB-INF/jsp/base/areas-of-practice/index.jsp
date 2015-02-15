@@ -15,9 +15,13 @@
                     <div id="wrapper">
                         <div id="breadcrumb">
                             <div class="breadcrumb-item">
-                                <a href="${pageContext.request.contextPath}/"><img id="breadcrumb-home" src="${pageContext.request.contextPath}/wp-content/themes/neptune/images/breadcrumb_home.png" /></a>
+                                <a href="${pageContext.request.contextPath}/">
+                                    <img id="breadcrumb-home" src="${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_home.png" />
+                                </a>
                             </div>
-                            <img class='breadcrumb-arrow' src='${pageContext.request.contextPath}/wp-content/themes/neptune/images/breadcrumb_arrow.png' /><div class='breadcrumb-item'>Practice Areas</div>	</div>
+                            <img class='breadcrumb-arrow' src='${pageContext.request.contextPath}/resources/wp-content/themes/neptune/images/breadcrumb_arrow.png' />
+                            <div class='breadcrumb-item'>Practice Areas</div>	
+                        </div>
                         <div id="page-header-container">
                             <div id="page-header">
                                 <div class="PageTitle"><h1>Practice Areas</h1></div>

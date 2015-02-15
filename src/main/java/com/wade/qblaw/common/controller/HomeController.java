@@ -18,175 +18,175 @@ public class HomeController {
 
     @RequestMapping(value = "/base/about-us", method = RequestMethod.GET)
     public String aboutus1() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'about-us' page.");
         return "base/about-us/index";
     }
 
     @RequestMapping(value = "/base/2011", method = RequestMethod.GET)
     public String aboutus2() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2011/index' page.");
         return "base/2011/index";
     }
 
     @RequestMapping(value = "/base/2012", method = RequestMethod.GET)
     public String aboutus3() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/index' page.");
         return "base/2012/index";
     }
 
     @RequestMapping(value = "/base/2013", method = RequestMethod.GET)
     public String aboutus4() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/index' page.");
         return "base/2013/index";
     }
 
     @RequestMapping(value = "/base/2013-fiscal-cliff-deal", method = RequestMethod.GET)
     public String aboutus5() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013-fiscal-cliff-deal/index' page.");
         return "base/2013-fiscal-cliff-deal/index";
     }
 
     @RequestMapping(value = "/base/2014", method = RequestMethod.GET)
     public String aboutus6() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2014/index' page.");
         return "base/2014/index";
     }
 
     @RequestMapping(value = "/base/2015", method = RequestMethod.GET)
     public String aboutus7() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2015/index' page.");
         return "base/2015/index";
     }
 
     @RequestMapping(value = "/base/areas-of-practice", method = RequestMethod.GET)
     public String aboutus8() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/areas-of-practice/index' page.");
         return "base/areas-of-practice/index";
     }
 
     @RequestMapping(value = "/base/attorneys", method = RequestMethod.GET)
     public String aboutus9() {
-        LOGGER.info("Rendering about-us page.");
-        return "/base/attorneys/index";
+        LOGGER.info("Rendering '/base/attorneys/index' page.");
+        return "base/attorneys/index";
     }
 
     @RequestMapping(value = "/base/blog", method = RequestMethod.GET)
     public String aboutus10() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/blog/index' page.");
         return "base/blog/index";
     }
 
     @RequestMapping(value = "/base/contact", method = RequestMethod.GET)
     public String aboutus11() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/contact/index' page.");
         return "base/contact/index";
     }
 
     @RequestMapping(value = "/base/events-resources", method = RequestMethod.GET)
     public String aboutus12() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/events-resources/index' page.");
         return "base/events-resources/index";
     }
 
     @RequestMapping(value = "/base/legal-disclaimer-privacy-policy", method = RequestMethod.GET)
     public String aboutus13() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/legal-disclaimer-privacy-policy/index' page.");
         return "base/legal-disclaimer-privacy-policy/index";
     }
 
     @RequestMapping(value = "/base/2011/11", method = RequestMethod.GET)
     public String aboutus14() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2011/11/index' page.");
         return "base/2011/11/index";
     }
 
     @RequestMapping(value = "/base/2011/12", method = RequestMethod.GET)
     public String aboutus15() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2011/12/index' page.");
         return "base/2011/12/index";
     }
 
     @RequestMapping(value = "/base/2012/02", method = RequestMethod.GET)
     public String aboutus16() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2011/02/index' page.");
         return "base/2011/02/index";
     }
 
     @RequestMapping(value = "/base/2012/03", method = RequestMethod.GET)
     public String aboutus17() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/03/index' page.");
         return "base/2012/03/index";
     }
 
     @RequestMapping(value = "/base/2012/04", method = RequestMethod.GET)
     public String aboutus18() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/04/index' page.");
         return "base/2012/04/index";
     }
 
     @RequestMapping(value = "/base/2012/05", method = RequestMethod.GET)
     public String aboutus19() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/05/index' page.");
         return "base/2012/05/index";
     }
 
     @RequestMapping(value = "/base/2012/06", method = RequestMethod.GET)
     public String aboutus20() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/06/index' page.");
         return "base/2012/06/index";
     }
 
     @RequestMapping(value = "/base/2012/07", method = RequestMethod.GET)
     public String aboutus21() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/07/index' page.");
         return "base/2012/07/index";
     }
 
     @RequestMapping(value = "/base/2012/08", method = RequestMethod.GET)
     public String aboutus22() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/08/index' page.");
         return "base/2012/08/index";
     }
 
     @RequestMapping(value = "/base/2012/09", method = RequestMethod.GET)
     public String aboutus23() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/09/index' page.");
         return "base/2012/09/index";
     }
 
     @RequestMapping(value = "/base/2012/10", method = RequestMethod.GET)
     public String aboutus24() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2012/10/index' page.");
         return "base/2012/10/index";
     }
 
     @RequestMapping(value = "/base/2013/01", method = RequestMethod.GET)
     public String aboutus25() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/01/index' page.");
         return "base/2013/01/index";
     }
 
     @RequestMapping(value = "/base/2013/02", method = RequestMethod.GET)
     public String aboutus26() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/02/index' page.");
         return "base/2013/02/index";
     }
 
     @RequestMapping(value = "/base/2013/04", method = RequestMethod.GET)
     public String aboutus27() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/04/index' page.");
         return "base/2013/04/index";
     }
 
     @RequestMapping(value = "/base/2013/05", method = RequestMethod.GET)
     public String aboutus28() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/05/index' page.");
         return "base/2013/05/index";
     }
 
     @RequestMapping(value = "/base/2013/06", method = RequestMethod.GET)
     public String aboutus29() {
-        LOGGER.info("Rendering about-us page.");
+        LOGGER.info("Rendering 'base/2013/06/index' page.");
         return "base/2013/06/index";
     }
 
