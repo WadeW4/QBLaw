@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qblaw:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="qblaw-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="qblaw:war exploded" />
+    </root>
+  </artifact>
+</component>
